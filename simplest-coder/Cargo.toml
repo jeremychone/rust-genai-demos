@@ -1,0 +1,19 @@
+[package]
+name = "simplest-coder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# -- Async
+tokio = { version = "1", features = ["full"] }
+# -- CLI
+clap = { version = "4", features = ["derive"] }
+inquire = "0.7"
+# -- AI
+genai = "0.5.1"
+udiffx = { version = "0.1.10", features = ["prompt"]}
+# -- FS
+simple-fs = { version = "0.9.5"}
+# -- Others
+derive_more = { version = "2", features = ["from", "display"] }
+
