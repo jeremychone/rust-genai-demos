@@ -18,7 +18,7 @@ const SRC_GLOBS: &[&str] = &[
 // -- Main
 #[tokio::main]
 async fn main() -> Result<()> {
-	println!("");
+	println!();
 
 	// -- Cmd parsing & Setup
 	let cli_cmd = CliCmd::parse();
