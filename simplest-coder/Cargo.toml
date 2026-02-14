@@ -8,12 +8,12 @@ edition = "2024"
 tokio = { version = "1", features = ["full"] }
 # -- CLI
 clap = { version = "4", features = ["derive"] }
-inquire = "0.7"
+inquire = "0.9"
 # -- AI
 genai = "0.5.1"
-udiffx = { version = "0.1.10", features = ["prompt"]}
+udiffx = { version = "0.1.12", features = ["prompt"]}
 # -- FS
-simple-fs = { version = "0.9.5"}
+simple-fs = { version = "0.10"}
 # -- Others
 derive_more = { version = "2", features = ["from", "display"] }
 
